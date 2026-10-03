@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "action": "generate",
+  "outcome": "failed",
+  "model": "ax-trust/deepseek-flash",
+  "generator": {
+    "version": "7.21.4",
+    "promptVersion": "native-page-v3"
+  },
+  "repositoryHead": "a1eabe935088054f8aeed6a8fa8817876650f252",
+  "startedAt": "2026-10-03T17:08:18.806Z",
+  "finishedAt": "2026-10-03T17:08:23.131Z",
+  "durationMs": 4325,
+  "pageCount": 7,
+  "written": [],
+  "notAttemptedCount": 6,
+  "error": "Foreground work has priority"
+}
