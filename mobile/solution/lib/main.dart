@@ -1,3 +1,5 @@
+// The Flutter SDK provides this package when the app is analyzed or built.
+// ignore: uri_does_not_exist
 import 'package:flutter/material.dart';
 
 void main() {
