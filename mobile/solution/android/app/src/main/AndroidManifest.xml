@@ -3,7 +3,8 @@
     <application
         android:label="Electric Mind Portfolio"
         android:name="${applicationName}"
-        android:icon="@android:drawable/sym_def_app_icon">
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
             android:exported="true"

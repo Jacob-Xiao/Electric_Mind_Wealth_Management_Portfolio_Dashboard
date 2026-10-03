@@ -1,6 +1,6 @@
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    // The Flutter Gradle Plugin must be applied after the Android gradle plugin.
     id("dev.flutter.flutter-gradle-plugin")
 }
 
@@ -13,7 +13,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-    kotlinOptions { jvmTarget = JavaVersion.VERSION_17.toString() }
 
     defaultConfig {
         applicationId = "com.electricmind.electric_mind_portfolio"
@@ -24,6 +23,12 @@ android {
     }
     buildTypes {
         release { signingConfig = signingConfigs.getByName("debug") }
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
     }
 }
 
