@@ -47,4 +47,17 @@ class Portfolio {
   }
 
   static double _toDouble(dynamic value) => (value as num?)?.toDouble() ?? 0;
+
+  Map<String, dynamic> toJson() => {
+        if (asOf != null) 'asOf': asOf!.toIso8601String(),
+        'portfolio': {
+          'portfolioId': portfolioId,
+          'label': label,
+          'totalMarketValue': totalMarketValue,
+          'dayChangeAmount': dayChangeAmount,
+          'dayChangePercent': dayChangePercent,
+          'totalReturnSinceInception': totalReturnSinceInception,
+        },
+        'holdings': holdings.map((h) => h.toJson()).toList(),
+      };
 }

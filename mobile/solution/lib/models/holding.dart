@@ -36,4 +36,14 @@ class Holding {
   }
 
   static double _toDouble(dynamic value) => (value as num?)?.toDouble() ?? 0;
+
+  Map<String, dynamic> toJson() => {
+        'ticker': ticker,
+        'name': name,
+        'quantity': quantity,
+        'price': price,
+        'marketValue': marketValue,
+        'weightPercent': weightPercent,
+        'gainLoss': gainLoss,
+      };
 }

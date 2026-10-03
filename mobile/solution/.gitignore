@@ -9,3 +9,5 @@ android/.kotlin/
 android/local.properties
 android/key.properties
 *.jks
+.idea/
+*.iml
