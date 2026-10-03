@@ -1,0 +1,949 @@
+{
+  "schemaVersion": 1,
+  "generator": "ax-wiki",
+  "generatedAt": "2026-10-03T18:27:05.957Z",
+  "repositoryHead": "a85a0e803fdab3bc9788af636676fd4238a02510",
+  "model": "ax-trust/deepseek-flash",
+  "planHash": "aef19cd35707d775789c6c96cd1f48a339ce1f783edf43b970cf67a2eeac0913",
+  "sources": {
+    "README.md": "6272dd6fe5fef721dea2d6719787bb4ebf1bec37598b4a0707b07db5bb1e9f0a",
+    "_probe_flutter/README.md": "d80e3c8595962db3dbbff520073896f2ff8dbfb0b7eda0050d89da31979215b5",
+    "_probe_flutter/analysis_options.yaml": "b63207cf529949ec4727b68c23dbb38ce255b6f6f4ae1effcb5c1dcf2852d238",
+    "_probe_flutter/android/app/build.gradle.kts": "2fb39dd125948236d104addeb31f07090932373afe49994930876261d3a29e17",
+    "_probe_flutter/android/app/src/debug/AndroidManifest.xml": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c",
+    "_probe_flutter/android/app/src/main/AndroidManifest.xml": "5e4a09270eae97506c465c61b8d9c7a87d45892f27dd119d109c2cb201d2e9bf",
+    "_probe_flutter/android/app/src/main/kotlin/com/electricmind/probe_app/MainActivity.kt": "02c81c654f8b47a8ce9505226a1b479777340bb09ba7cc9550d9161092544d11",
+    "_probe_flutter/android/app/src/main/res/drawable-v21/launch_background.xml": "dca312ec77de83e43ef70a825c299b51451247286c29167d62f19165750b8793",
+    "_probe_flutter/android/app/src/main/res/drawable/launch_background.xml": "2df60e2cfbee873ce2858088cf003e6b93498f2f568476da437610467ea1a9d7",
+    "_probe_flutter/android/app/src/main/res/values-night/styles.xml": "ea763597dc1a84c8034251caee98d7753e0fbf57340ffc94677427de4b537516",
+    "_probe_flutter/android/app/src/main/res/values/styles.xml": "cca15a99b59380a548bf6a890f7ca5380ee509b1f9bbb2f5f9ec3589fa25c2f7",
+    "_probe_flutter/android/app/src/profile/AndroidManifest.xml": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c",
+    "_probe_flutter/android/build.gradle.kts": "218f400e3fff31c9c986a2535dfb974560e1b4d33cc27b7c1fee96a2b7e44454",
+    "_probe_flutter/android/settings.gradle.kts": "d6b16579d5f6a6066cc22323c4e34adb82020f7b75378bffed7f0358bc949ce3",
+    "_probe_flutter/pubspec.yaml": "68a031d43b708a7e4ea089fb9549181b7ccb90a3cc567309c9179ef31d1ac43c",
+    "backend/CRM.md": "0604a520c78d99bcced958588b448dfb8533e76df2c417a2398fdc1b467f8cdf",
+    "backend/REQUIREMENTS.md": "3c3c044faf1b6c9296872613b8bc2a746ce48d2e55b8c1dec4309b8e8af95074",
+    "backend/START-HERE.md": "a3353ee1216ed14980a9d517639fac5236c49c61644e9931ac515f73ea030d87",
+    "backend/crm-service.mjs": "ee11089be599574f9d0d1ee80e079e6ad3494a6039cee2957a337c2a49b8e297",
+    "backend/fixtures/generate-history.mjs": "c5ed4aade305b03d5916075164ca21a3e01f1ac38e93e4795d675b846ab3d26e",
+    "backend/fixtures/seed.json": "02c6c470840645560cd886d7281b936b1e75a5d35830d49053d9e0d1ec144d84",
+    "backend/mock-crm.mjs": "eafb5f1de8a38c781811350869e76f699fc53f8db5a6463f083cc5bf1edce8e3",
+    "frontend/REQUIREMENTS.md": "a9fac318ae364a36351b393f2ea08c893836b8797c1dba9a27bc1e6961357356",
+    "frontend/START-HERE.md": "3a7098cb112d071a55e56ac75a79e1ca07bd4cf44fe19fcb414bf16d0a4586ed",
+    "frontend/mock-server.mjs": "f80a485f898245e790a6058136593cbec3c9d53340c70dca0a33cd8062fb484a",
+    "mobile/API-CONTRACT.md": "18973be17afe072341e037f3bf2f8d52a4d96d08735c7d91fc5ecd999c1a409b",
+    "mobile/REQUIREMENTS.md": "adda05f9d2bc198dedce4dd1058a25710fb744dce8bb39fb35ecf22d722ed093",
+    "mobile/START-HERE.md": "fb2847765a9e74764b6cba8ca3ad07b6096eb616b698994d051bd7af4b1ee2d0",
+    "mobile/fixtures/notification-unknown.json": "ff1b6c3af20e77e31f003a90d1ee690a481c5f532e7c77290d7c56ad8a2d2092",
+    "mobile/fixtures/notification.json": "485c47befb82569e7efdabc0d977cc559cc21669b108948ae6b551b7502f4084",
+    "mobile/mock-server.mjs": "f03c8987b32ff1f79886df317007f69936a33717f98eeec6c04bdfc3b633da9a",
+    "mobile/solution/NOTES.md": "cfc02e6b23137b39dd533e5076aa2631261c1028ab3cb98bcb578e98007e3599",
+    "mobile/solution/README.md": "89140aff264a275cd2d316ef955e4cc96739a46539af89ea0a0996f681d433af",
+    "mobile/solution/analysis_options.yaml": "c1e9534c05acb3643e72a82ad3d92d56d2ba9b0df2add014c18f7e1d462f24e4",
+    "mobile/solution/android/app/build.gradle.kts": "2c98395b1fc4da930bcc567b65ec1ff0601bc7081c396984b725bae188de9e94",
+    "mobile/solution/android/app/src/main/AndroidManifest.xml": "39f679f83327c97c1286e71e48f56e9b85bc5b82ec3f66e9000a0008f7a4e0d9",
+    "mobile/solution/android/app/src/main/kotlin/com/electricmind/electric_mind_portfolio/MainActivity.kt": "21889a3d1e96ff1881b8097e0d1a2e0f0f24520d2052d328bf106a67bb81e185",
+    "mobile/solution/android/build.gradle.kts": "7d230a4a1d4787b9de89d413c2fb03f3f560e5700780c57e57fd7edff136391e",
+    "mobile/solution/android/settings.gradle.kts": "3691c0f76ab7bcd423f7f6765181ddcc7808731304e0524357edabf8fce99042",
+    "mobile/solution/pubspec.yaml": "3715766e438504ab69cb5b56499f6de3ac9722ce3a74975981325fde058c3cdb",
+    "mobile/solution/web/index.html": "3e85594906a800a0d8427aa1893b904e4b252377f058454cfdea896a7bb17fb6",
+    "mobile/solution/web/manifest.json": "7862b06bc5aa7d86fb6fa1f46e365acd7ae149001d79ea311be60e53618c79dc",
+    "package.json": "6ce56e2c9d35b16633f7db7dddfaf521454c97ff7485e21a7f900bc4c6839a6f",
+    "support/MAINTENANCE.md": "f723ea5fe8262b391395a594d847d831a8db1f0ae1fe4a407a1360d482d187c6",
+    "support/PORTFOLIO-API.md": "fa2224494ffdef38fcd023dcd3af7fecf920b589013631ce45c31b4bd6e58ae9",
+    "support/SETUP.md": "613d93ba3998ef62dbf2c0625d6def17e8d77b9f3b8cc1357ba1952eaf5fb5c0",
+    "support/http.mjs": "309941fd5cdea39b0967c6029a89394841c2f206022b62c904cf78c042a4e029",
+    "support/mocks.test.mjs": "d9ebdfb8a3ad590bb25241357cbee1a08610d4281935b83ce5489b7eb6a59b9d",
+    "support/portfolio-api.mjs": "9300904c8598dffc43a07baf698beb1837b3852c85e2598dcce301118936903c",
+    "support/portfolio-data.mjs": "ba01e323c84889817b04c97d8444f14626ca4ac49cc0b570d186f2cd8bf8d28c"
+  },
+  "pages": {
+    "quickstart.md": {
+      "title": "Repository Quickstart",
+      "purpose": "Orient a new contributor: purpose, stack, entrypoints, setup, and the shortest path to productive work.",
+      "selectors": [
+        "README*",
+        "AGENTS.md",
+        "package.json",
+        "Cargo.toml",
+        "go.mod",
+        "pyproject.toml",
+        "pnpm-workspace.yaml",
+        "docs/getting-started/start-here.md"
+      ],
+      "sources": [
+        "README.md",
+        "package.json"
+      ],
+      "sourceHashes": {
+        "README.md": "6272dd6fe5fef721dea2d6719787bb4ebf1bec37598b4a0707b07db5bb1e9f0a",
+        "package.json": "6ce56e2c9d35b16633f7db7dddfaf521454c97ff7485e21a7f900bc4c6839a6f"
+      },
+      "summary": "Quickstart for the Electric Mind Super Day Challenge monorepo: pick one track (frontend, backend, mobile), read its START-HERE and REQUIREMENTS, run the matching mock via npm scripts (node >=24), and build your solution in that track's solution/ folder. Includes entrypoints, setup commands, and where to look next.",
+      "symbols": [
+        "package.json",
+        "README.md",
+        "frontend/START-HERE.md",
+        "frontend/REQUIREMENTS.md",
+        "backend/START-HERE.md",
+        "backend/REQUIREMENTS.md",
+        "mobile/START-HERE.md",
+        "mobile/REQUIREMENTS.md",
+        "frontend/mock-server.mjs",
+        "backend/mock-crm.mjs",
+        "mobile/mock-server.mjs",
+        "support/*.test.mjs",
+        "engines.node",
+        "type: module",
+        "scripts.frontend",
+        "scripts.backend",
+        "scripts.mobile",
+        "scripts.test"
+      ],
+      "symbolSummaries": [
+        {
+          "name": "package.json",
+          "summary": "Root private ESM package requiring Node >= 24; defines the frontend/backend/mobile mock scripts and the support test script, and carries no dependencies."
+        },
+        {
+          "name": "README.md",
+          "summary": "Challenge overview: pick one of three tracks, read its start-here and requirements, build in that track's solution/ folder, and submit short run/test notes."
+        },
+        {
+          "name": "frontend/START-HERE.md",
+          "summary": "Setup guide for the Frontend track, referenced from the README track table."
+        },
+        {
+          "name": "frontend/REQUIREMENTS.md",
+          "summary": "Tasks and acceptance requirements for the Frontend track."
+        },
+        {
+          "name": "backend/START-HERE.md",
+          "summary": "Setup guide for the Backend track."
+        },
+        {
+          "name": "backend/REQUIREMENTS.md",
+          "summary": "Tasks and acceptance requirements for the Backend track."
+        },
+        {
+          "name": "mobile/START-HERE.md",
+          "summary": "Setup guide for the Mobile track."
+        },
+        {
+          "name": "mobile/REQUIREMENTS.md",
+          "summary": "Tasks and acceptance requirements for the Mobile track."
+        },
+        {
+          "name": "frontend/mock-server.mjs",
+          "summary": "Mock service launched by npm run frontend, providing Frontend track starting data."
+        },
+        {
+          "name": "backend/mock-crm.mjs",
+          "summary": "Mock CRM service launched by npm run backend, providing Backend track starting data."
+        },
+        {
+          "name": "mobile/mock-server.mjs",
+          "summary": "Mock service launched by npm run mobile, providing Mobile track starting data."
+        },
+        {
+          "name": "support/*.test.mjs",
+          "summary": "Shared tests executed by the root npm test script via node --test."
+        }
+      ],
+      "contentHash": "8c73aa9519ab4ef5cfb94285ccfb92ec9460d15bb8c46f02d6c66c042b95f408",
+      "managedHash": "9d3a5585cbe037f03afd39cb16f7c8ccc0b1fdf76581353ee98d38ef72826ba8",
+      "generatedAt": "2026-10-03T18:27:05.957Z",
+      "fingerprint": "2364ba81f488d6901296b853cd518332ffa2c66da36a6dc61ff7fc7483ab041a"
+    },
+    "architecture/overview.md": {
+      "title": "Architecture Overview",
+      "purpose": "Explain system boundaries, major components, runtime flow, data flow, and important architectural decisions.",
+      "selectors": [
+        "README*",
+        "**/package.json",
+        "**/Cargo.toml",
+        "**/go.mod",
+        "**/pyproject.toml",
+        "docs/architecture*.md",
+        "docs/specs/**"
+      ],
+      "sources": [
+        "README.md",
+        "package.json"
+      ],
+      "sourceHashes": {
+        "README.md": "6272dd6fe5fef721dea2d6719787bb4ebf1bec37598b4a0707b07db5bb1e9f0a",
+        "package.json": "6ce56e2c9d35b16633f7db7dddfaf521454c97ff7485e21a7f900bc4c6839a6f"
+      },
+      "summary": "The repository is a multi-track challenge scaffold rather than a single application: `frontend/`, `backend/`, and `mobile/` each hold their own START-HERE/REQUIREMENTS docs plus a Node mock service, `_probe_flutter/` is a Flutter probe environment, and `support/` holds shared Node tests run via the root `npm test`. The root `package.json` is the only shared runtime contract, exposing one script per mock service.",
+      "symbols": [
+        "frontend/mock-server.mjs",
+        "backend/mock-crm.mjs",
+        "mobile/mock-server.mjs",
+        "support/*.test.mjs",
+        "package.json",
+        "README.md",
+        "frontend/START-HERE.md",
+        "frontend/REQUIREMENTS.md",
+        "backend/START-HERE.md",
+        "backend/REQUIREMENTS.md",
+        "mobile/START-HERE.md",
+        "mobile/REQUIREMENTS.md"
+      ],
+      "symbolSummaries": [
+        {
+          "name": "package.json",
+          "summary": "Root private ESM manifest requiring Node >=24; the only shared build/runtime contract, defining the frontend, backend, mobile, and test scripts."
+        },
+        {
+          "name": "frontend/mock-server.mjs",
+          "summary": "Node ESM mock server for the frontend track, launched by `npm run frontend`; serves as the frontend solution's starting data source."
+        },
+        {
+          "name": "backend/mock-crm.mjs",
+          "summary": "Node ESM mock CRM for the backend track, launched by `npm run backend`; stands in for the upstream system a backend solution would integrate with."
+        },
+        {
+          "name": "mobile/mock-server.mjs",
+          "summary": "Node ESM mock server for the mobile track, launched by `npm run mobile`; the mobile solution's starting data source."
+        },
+        {
+          "name": "support/*.test.mjs",
+          "summary": "Glob of Node test files run by `npm test` via `node --test`; represents the repository's shared support test suite."
+        },
+        {
+          "name": "README.md",
+          "summary": "Challenge entry point: defines the three tracks, points at each track's START-HERE and REQUIREMENTS, and specifies building inside each track's solution/ folder with short run/assumption notes."
+        }
+      ],
+      "contentHash": "2adfc6eb13b46733d2c3e54b27304b392fcd0e95a04506b2c662c5b6c1444fe2",
+      "managedHash": "e84e8d8c1e1676208c77c154aa9b62f9ebc565faa99312fc9d97f99bf2194fa7",
+      "generatedAt": "2026-10-03T18:27:05.957Z",
+      "fingerprint": "2364ba81f488d6901296b853cd518332ffa2c66da36a6dc61ff7fc7483ab041a"
+    },
+    "development/workflows.md": {
+      "title": "Development Workflows",
+      "purpose": "Document build, test, release, CI, debugging, and safe change workflows.",
+      "selectors": [
+        "AGENTS.md",
+        "CONTRIBUTING*",
+        "package.json",
+        "**/package.json",
+        "Makefile",
+        ".github/**",
+        "**/test/**",
+        "**/tests/**",
+        "**/*.test.*",
+        "**/*.spec.*"
+      ],
+      "sources": [
+        "package.json",
+        "support/mocks.test.mjs"
+      ],
+      "sourceHashes": {
+        "package.json": "6ce56e2c9d35b16633f7db7dddfaf521454c97ff7485e21a7f900bc4c6839a6f",
+        "support/mocks.test.mjs": "d9ebdfb8a3ad590bb25241357cbee1a08610d4281935b83ce5489b7eb6a59b9d"
+      },
+      "summary": "Development workflows for this repo center on Node.js >=24 ESM mock services and a single node:test suite. Commands are defined in package.json: frontend/backend/mobile mock servers plus `npm test`, which runs support/*.test.mjs and boots the portfolio and CRM services on ephemeral ports.",
+      "symbols": [
+        "package.json",
+        "support/mocks.test.mjs",
+        "support/portfolio-api.mjs",
+        "support/portfolio-data.mjs",
+        "backend/crm-service.mjs",
+        "backend/fixtures/seed.json",
+        "startPortfolioApi",
+        "startCrm",
+        "scenarios",
+        "service",
+        "closeTo",
+        "mode",
+        "control",
+        "stats",
+        "client_record",
+        "curr_val.amt",
+        "acct_nickname",
+        "acct_ref",
+        "performanceHistory",
+        "allocation"
+      ],
+      "symbolSummaries": [
+        {
+          "name": "package.json",
+          "summary": "Defines the private ESM package, the Node >=24 engine requirement, and the only scripts: frontend/backend/mobile mock servers plus `node --test support/*.test.mjs`."
+        },
+        {
+          "name": "support/mocks.test.mjs",
+          "summary": "The sole test suite; boots the portfolio API and CRM service on ephemeral ports, asserts data consistency, HTTP edge cases, and CRM failure modes."
+        },
+        {
+          "name": "support/portfolio-api.mjs",
+          "summary": "Exports startPortfolioApi, the UI-facing mock service under test that serves accounts, portfolios, holdings detail, exchange-rate, and notification endpoints."
+        },
+        {
+          "name": "support/portfolio-data.mjs",
+          "summary": "Exports scenarios, the list of dataset names the first test iterates to validate per-scenario consistency."
+        },
+        {
+          "name": "backend/crm-service.mjs",
+          "summary": "Exports startCrm, the legacy CRM mock service with mode switching, injected every-fifth-request failure, and stats reporting."
+        },
+        {
+          "name": "backend/fixtures/seed.json",
+          "summary": "Seed portfolios and holdings that the CRM test cross-checks: per-portfolio values must equal the sum of quantity * price."
+        },
+        {
+          "name": "startPortfolioApi",
+          "summary": "Factory used by tests to start the portfolio mock with options such as port 0 and a name."
+        },
+        {
+          "name": "startCrm",
+          "summary": "Factory used by tests to start the CRM mock service on an ephemeral port."
+        },
+        {
+          "name": "scenarios",
+          "summary": "Named dataset variants (empty, large, gaps, all-gainers, tiny-allocation, and others) that drive both test coverage and mock responses."
+        },
+        {
+          "name": "service",
+          "summary": "Test helper that starts a service on port 0, waits for listening, registers t.after cleanup with closeAllConnections, and returns fetch/get wrappers."
+        },
+        {
+          "name": "closeTo",
+          "summary": "Assertion helper allowing a 0.02 tolerance for floating-point comparisons of totals, holdings, and allocations."
+        },
+        {
+          "name": "client_record",
+          "summary": "CRM response envelope holding accounts; its shape changes with mode, moving accounts under relationships when nested."
+        },
+        {
+          "name": "curr_val.amt",
+          "summary": "Per-account current value field in CRM responses; computed as sum of quantity * price and set to null in mode=missing."
+        },
+        {
+          "name": "acct_nickname",
+          "summary": "Optional account label in CRM responses that must be absent when mode=missing is used."
+        },
+        {
+          "name": "acct_ref",
+          "summary": "Account reference key in CRM responses used to match a portfolioId to its account record in tests."
+        },
+        {
+          "name": "control",
+          "summary": "Helper in the CRM test that POSTs a mode to /__control to force ok, error, or timeout behavior."
+        },
+        {
+          "name": "stats",
+          "summary": "Result of /__stats exposing calls, callsByPortfolio, and the active mode for CRM debugging assertions."
+        },
+        {
+          "name": "performanceHistory",
+          "summary": "Time series in portfolio responses; tests require strictly increasing dates and a final point dated today matching the account total."
+        },
+        {
+          "name": "allocation",
+          "summary": "Asset-class breakdown in portfolio responses whose values must sum to the portfolio totalMarketValue."
+        }
+      ],
+      "contentHash": "4d40c06296d756f0d47dbdbdd4fefe0dbbc189f9771cbe3ecd1b6dc5fa3c1656",
+      "managedHash": "069fbecc60a60a1fc150c2308c66a7eba5c361e8c035172ff26b8466aa50a0ff",
+      "generatedAt": "2026-10-03T18:27:05.957Z",
+      "fingerprint": "3315ac0da27eaff68a5cd4399b6c0ad633d2201ae56943b278b76e303eb79f21"
+    },
+    "modules/mobile.md": {
+      "title": "Mobile Module",
+      "purpose": "Explain the responsibilities, public surface, internal flow, dependencies, and change guidance for mobile/.",
+      "selectors": [
+        "mobile/**"
+      ],
+      "sources": [
+        "mobile/solution/README.md",
+        "mobile/solution/web/index.html",
+        "mobile/API-CONTRACT.md",
+        "mobile/REQUIREMENTS.md",
+        "mobile/solution/NOTES.md",
+        "mobile/START-HERE.md",
+        "mobile/fixtures/notification-unknown.json",
+        "mobile/fixtures/notification.json",
+        "mobile/solution/analysis_options.yaml",
+        "mobile/solution/android/app/src/main/AndroidManifest.xml",
+        "mobile/solution/pubspec.yaml",
+        "mobile/solution/web/manifest.json",
+        "mobile/solution/android/app/build.gradle.kts",
+        "mobile/solution/android/app/src/main/kotlin/com/electricmind/electric_mind_portfolio/MainActivity.kt",
+        "mobile/solution/android/build.gradle.kts",
+        "mobile/solution/android/settings.gradle.kts",
+        "mobile/mock-server.mjs"
+      ],
+      "sourceHashes": {
+        "mobile/solution/README.md": "89140aff264a275cd2d316ef955e4cc96739a46539af89ea0a0996f681d433af",
+        "mobile/solution/web/index.html": "3e85594906a800a0d8427aa1893b904e4b252377f058454cfdea896a7bb17fb6",
+        "mobile/API-CONTRACT.md": "18973be17afe072341e037f3bf2f8d52a4d96d08735c7d91fc5ecd999c1a409b",
+        "mobile/REQUIREMENTS.md": "adda05f9d2bc198dedce4dd1058a25710fb744dce8bb39fb35ecf22d722ed093",
+        "mobile/solution/NOTES.md": "cfc02e6b23137b39dd533e5076aa2631261c1028ab3cb98bcb578e98007e3599",
+        "mobile/START-HERE.md": "fb2847765a9e74764b6cba8ca3ad07b6096eb616b698994d051bd7af4b1ee2d0",
+        "mobile/fixtures/notification-unknown.json": "ff1b6c3af20e77e31f003a90d1ee690a481c5f532e7c77290d7c56ad8a2d2092",
+        "mobile/fixtures/notification.json": "485c47befb82569e7efdabc0d977cc559cc21669b108948ae6b551b7502f4084",
+        "mobile/solution/analysis_options.yaml": "c1e9534c05acb3643e72a82ad3d92d56d2ba9b0df2add014c18f7e1d462f24e4",
+        "mobile/solution/android/app/src/main/AndroidManifest.xml": "39f679f83327c97c1286e71e48f56e9b85bc5b82ec3f66e9000a0008f7a4e0d9",
+        "mobile/solution/pubspec.yaml": "3715766e438504ab69cb5b56499f6de3ac9722ce3a74975981325fde058c3cdb",
+        "mobile/solution/web/manifest.json": "7862b06bc5aa7d86fb6fa1f46e365acd7ae149001d79ea311be60e53618c79dc",
+        "mobile/solution/android/app/build.gradle.kts": "2c98395b1fc4da930bcc567b65ec1ff0601bc7081c396984b725bae188de9e94",
+        "mobile/solution/android/app/src/main/kotlin/com/electricmind/electric_mind_portfolio/MainActivity.kt": "21889a3d1e96ff1881b8097e0d1a2e0f0f24520d2052d328bf106a67bb81e185",
+        "mobile/solution/android/build.gradle.kts": "7d230a4a1d4787b9de89d413c2fb03f3f560e5700780c57e57fd7edff136391e",
+        "mobile/solution/android/settings.gradle.kts": "3691c0f76ab7bcd423f7f6765181ddcc7808731304e0524357edabf8fce99042",
+        "mobile/mock-server.mjs": "f03c8987b32ff1f79886df317007f69936a33717f98eeec6c04bdfc3b633da9a"
+      },
+      "summary": "Mobile Module covers the Flutter portfolio dashboard: the `mobile/solution` app (Material 3 shell, portfolio screen, SQLite cache, offline reconciliation) plus the mock API entrypoint and shared API contract. Tasks 5-10 (auth, notifications, share, account selector, holding detail, charts) are still unfinished, and `_probe_flutter` mirrors this module's setup.",
+      "symbols": [
+        "mobile/mock-server.mjs",
+        "startPortfolioApi",
+        "mobile/solution/lib/main.dart",
+        "mobile/solution/lib/models/holding.dart",
+        "Holding",
+        "mobile/solution/lib/models/portfolio.dart",
+        "Portfolio",
+        "mobile/solution/lib/services/portfolio_repository.dart",
+        "mobile/solution/lib/services/portfolio_store.dart",
+        "mobile/solution/lib/services/connectivity_service.dart",
+        "ConnectivityService",
+        "mobile/solution/lib/screens/portfolio_overview_screen.dart",
+        "mobile/solution/lib/widgets/portfolio_summary_card.dart",
+        "mobile/solution/lib/widgets/holding_tile.dart",
+        "mobile/solution/lib/widgets/offline_banner.dart",
+        "mobile/solution/lib/utils/formatters.dart",
+        "mobile/solution/lib/utils/portfolio_colors.dart",
+        "mobile/solution/pubspec.yaml",
+        "mobile/solution/NOTES.md",
+        "mobile/solution/START-HERE.md",
+        "mobile/START-HERE.md",
+        "mobile/API-CONTRACT.md",
+        "mobile/REQUIREMENTS.md",
+        "mobile/fixtures/notification.json",
+        "mobile/fixtures/notification-unknown.json",
+        "mobile/solution/analysis_options.yaml",
+        "mobile/solution/android/app/src/main/AndroidManifest.xml",
+        "mobile/solution/android/app/src/main/kotlin/com/electricmind/electric_mind_portfolio/MainActivity.kt",
+        "MainActivity",
+        "mobile/solution/android/app/build.gradle.kts",
+        "mobile/solution/android/build.gradle.kts",
+        "mobile/solution/android/settings.gradle.kts",
+        "mobile/solution/web/index.html",
+        "mobile/solution/web/manifest.json",
+        "mobile/solution/README.md",
+        "portfolio_cache",
+        "PortfolioResponse",
+        "HoldingDetail",
+        "Account",
+        "NotificationPayload"
+      ],
+      "symbolSummaries": [
+        {
+          "name": "mobile/mock-server.mjs",
+          "summary": "Thin entrypoint that imports startPortfolioApi and support/http.mjs options and launches the mock API on port 4001."
+        },
+        {
+          "name": "startPortfolioApi",
+          "summary": "Factory from support/portfolio-api.mjs that the mobile mock server invokes to serve the contract-documented JSON routes."
+        },
+        {
+          "name": "Portfolio",
+          "summary": "Model holding the portfolio summary plus its holdings, with JSON serialization used by the SQLite cache round-trip."
+        },
+        {
+          "name": "Holding",
+          "summary": "Model for one position with ticker, quantity, price, market value, gain/loss, and percentage fields, plus JSON support."
+        },
+        {
+          "name": "ConnectivityService",
+          "summary": "Abstract connectivity wrapper over connectivity_plus that lets tests and dev builds simulate airplane mode."
+        },
+        {
+          "name": "portfolio_cache",
+          "summary": "SQLite table storing serialized Portfolio JSON keyed by portfolio id, with cached_at milliseconds used for staleness."
+        },
+        {
+          "name": "mobile/solution/lib/screens/portfolio_overview_screen.dart",
+          "summary": "Primary screen implementing Tasks 2-4: summary plus holdings list, cache-first render, pull-to-refresh, and offline reconciliation."
+        },
+        {
+          "name": "mobile/API-CONTRACT.md",
+          "summary": "Authoritative contract for the local mock API: routes, query parameters, TypeScript shapes, unit conventions, errors, and edge-case scenarios."
+        },
+        {
+          "name": "mobile/REQUIREMENTS.md",
+          "summary": "Ten-task specification for the mobile dashboard, defining the behaviors consumers expect for shell, portfolio screen, storage, offline, auth, notifications, share, accounts, detail, and charts."
+        },
+        {
+          "name": "mobile/solution/NOTES.md",
+          "summary": "Solution notes documenting Tasks 1-4, the SQLite schema, offline handling, unit assumptions, and remaining unfinished work."
+        },
+        {
+          "name": "mobile/solution/pubspec.yaml",
+          "summary": "Declares the electric_mind_portfolio package, Dart >=3.5.0, and the http, connectivity_plus, path, and sqflite dependencies."
+        },
+        {
+          "name": "NotificationPayload",
+          "summary": "Contract shape for notification fixtures, carrying title, body, and data with portfolioId and type."
+        },
+        {
+          "name": "PortfolioResponse",
+          "summary": "Contract response for /portfolios/{portfolioId}, bundling asOf, portfolio summary, holdings, allocation, and performanceHistory."
+        },
+        {
+          "name": "HoldingDetail",
+          "summary": "Contract response for /holdings/{ticker}/detail with cost basis, purchase date, dividendYield (nullable), 52-week range, and priceHistory."
+        },
+        {
+          "name": "mobile/solution/android/app/src/main/AndroidManifest.xml",
+          "summary": "Android manifest enabling INTERNET and development-only cleartext traffic, with a singleTop MainActivity as launcher."
+        },
+        {
+          "name": "mobile/solution/web/index.html",
+          "summary": "Flutter web host page that validates the $FLUTTER_BASE_HREF placeholder and loads flutter_bootstrap.js asynchronously."
+        }
+      ],
+      "contentHash": "62077855d63444db6e7a3112f469cd46300466221c5769a1793b5edd53dac154",
+      "managedHash": "14f35f44006d2b7432e150968a697a194279647a7ad6ce1e94c97b63440b79d2",
+      "generatedAt": "2026-10-03T18:27:05.957Z",
+      "fingerprint": "e6f67ea3a97ea2488a71cdf46a5a10f50ae1c4c087176dce658d0e6c9a1921ec"
+    },
+    "modules/probe-flutter.md": {
+      "title": " Probe Flutter Module",
+      "purpose": "Explain the responsibilities, public surface, internal flow, dependencies, and change guidance for _probe_flutter/.",
+      "selectors": [
+        "_probe_flutter/**"
+      ],
+      "sources": [
+        "_probe_flutter/README.md",
+        "_probe_flutter/analysis_options.yaml",
+        "_probe_flutter/android/app/src/debug/AndroidManifest.xml",
+        "_probe_flutter/android/app/src/main/AndroidManifest.xml",
+        "_probe_flutter/android/app/src/main/res/drawable-v21/launch_background.xml",
+        "_probe_flutter/android/app/src/main/res/drawable/launch_background.xml",
+        "_probe_flutter/android/app/src/main/res/values-night/styles.xml",
+        "_probe_flutter/android/app/src/main/res/values/styles.xml",
+        "_probe_flutter/android/app/src/profile/AndroidManifest.xml",
+        "_probe_flutter/pubspec.yaml",
+        "_probe_flutter/android/app/build.gradle.kts",
+        "_probe_flutter/android/app/src/main/kotlin/com/electricmind/probe_app/MainActivity.kt",
+        "_probe_flutter/android/build.gradle.kts",
+        "_probe_flutter/android/settings.gradle.kts"
+      ],
+      "sourceHashes": {
+        "_probe_flutter/README.md": "d80e3c8595962db3dbbff520073896f2ff8dbfb0b7eda0050d89da31979215b5",
+        "_probe_flutter/analysis_options.yaml": "b63207cf529949ec4727b68c23dbb38ce255b6f6f4ae1effcb5c1dcf2852d238",
+        "_probe_flutter/android/app/src/debug/AndroidManifest.xml": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c",
+        "_probe_flutter/android/app/src/main/AndroidManifest.xml": "5e4a09270eae97506c465c61b8d9c7a87d45892f27dd119d109c2cb201d2e9bf",
+        "_probe_flutter/android/app/src/main/res/drawable-v21/launch_background.xml": "dca312ec77de83e43ef70a825c299b51451247286c29167d62f19165750b8793",
+        "_probe_flutter/android/app/src/main/res/drawable/launch_background.xml": "2df60e2cfbee873ce2858088cf003e6b93498f2f568476da437610467ea1a9d7",
+        "_probe_flutter/android/app/src/main/res/values-night/styles.xml": "ea763597dc1a84c8034251caee98d7753e0fbf57340ffc94677427de4b537516",
+        "_probe_flutter/android/app/src/main/res/values/styles.xml": "cca15a99b59380a548bf6a890f7ca5380ee509b1f9bbb2f5f9ec3589fa25c2f7",
+        "_probe_flutter/android/app/src/profile/AndroidManifest.xml": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c",
+        "_probe_flutter/pubspec.yaml": "68a031d43b708a7e4ea089fb9549181b7ccb90a3cc567309c9179ef31d1ac43c",
+        "_probe_flutter/android/app/build.gradle.kts": "2fb39dd125948236d104addeb31f07090932373afe49994930876261d3a29e17",
+        "_probe_flutter/android/app/src/main/kotlin/com/electricmind/probe_app/MainActivity.kt": "02c81c654f8b47a8ce9505226a1b479777340bb09ba7cc9550d9161092544d11",
+        "_probe_flutter/android/build.gradle.kts": "218f400e3fff31c9c986a2535dfb974560e1b4d33cc27b7c1fee96a2b7e44454",
+        "_probe_flutter/android/settings.gradle.kts": "d6b16579d5f6a6066cc22323c4e34adb82020f7b75378bffed7f0358bc949ce3"
+      },
+      "summary": "The `_probe_flutter/` module is a stock Flutter `probe_app` project scaffold (package `probe_app`, application ID `com.electricmind.probe_app`). It contains only Dart/build configuration and Android platform host files — no Dart business logic, iOS, or other platform folders are present in the evidence. This page documents its surface, Android embedder flow, and change guidance.",
+      "symbols": [
+        "probe_app",
+        "MainActivity",
+        "package com.electricmind.probe_app",
+        "com.electricmind.probe_app",
+        "dev.flutter.flutter-gradle-plugin",
+        "dev.flutter.flutter-plugin-loader",
+        "com.android.application",
+        "org.jetbrains.kotlin.android",
+        "LaunchTheme",
+        "NormalTheme",
+        "launch_background",
+        "flutterEmbedding",
+        "io.flutter.embedding.android.NormalTheme",
+        "flutter.sdk",
+        "uses-material-design",
+        "cupertino_icons",
+        "flutter_lints",
+        "flutter_test",
+        "package:flutter_lints/flutter.yaml",
+        "includeBuild",
+        "evaluationDependsOn"
+      ],
+      "symbolSummaries": [
+        {
+          "name": "probe_app",
+          "summary": "The Flutter package name declared in `_probe_flutter/pubspec.yaml` and the Android app label; the project is marked `publish_to: 'none'`."
+        },
+        {
+          "name": "MainActivity",
+          "summary": "Empty `FlutterActivity` subclass in `_probe_flutter/android/app/src/main/kotlin/com/electricmind/probe_app/MainActivity.kt`; the Android entrypoint with no added channels."
+        },
+        {
+          "name": "com.electricmind.probe_app",
+          "summary": "Android namespace and applicationId for the probe app, declared in `_probe_flutter/android/app/build.gradle.kts`."
+        },
+        {
+          "name": "com.android.application",
+          "summary": "Android Gradle Plugin pinned to 9.0.1 in `_probe_flutter/android/settings.gradle.kts` and applied in `app/build.gradle.kts`."
+        },
+        {
+          "name": "dev.flutter.flutter-gradle-plugin",
+          "summary": "Flutter's Gradle plugin applied in `_probe_flutter/android/app/build.gradle.kts`, supplying SDK/NDK/version defaults."
+        },
+        {
+          "name": "dev.flutter.flutter-plugin-loader",
+          "summary": "Flutter plugin loader applied at version 1.0.0 in `_probe_flutter/android/settings.gradle.kts`."
+        },
+        {
+          "name": "org.jetbrains.kotlin.android",
+          "summary": "Kotlin Android Gradle plugin pinned to 2.3.20 (`apply false`) in `android/settings.gradle.kts`."
+        },
+        {
+          "name": "LaunchTheme",
+          "summary": "Android splash theme in `res/values/styles.xml` and `values-night/styles.xml` that sets `windowBackground` to the launch drawable until the Flutter engine draws."
+        },
+        {
+          "name": "NormalTheme",
+          "summary": "Theme applied after process start (V2 embedding) that colors the window behind the Flutter UI in both light and night variants."
+        },
+        {
+          "name": "launch_background",
+          "summary": "Layer-list drawable used as the launch splash background; white for light, `?android:colorBackground` for drawable-v21."
+        },
+        {
+          "name": "flutterEmbedding",
+          "summary": "Manifest meta-data set to value 2, selecting Flutter's V2 Android embedding and enabling generated plugin registration."
+        },
+        {
+          "name": "flutter.sdk",
+          "summary": "Property read from `local.properties` by `settings.gradle.kts`; a missing value fails the build with 'flutter.sdk not set in local.properties'."
+        },
+        {
+          "name": "uses-material-design",
+          "summary": "Flutter flag enabled in `pubspec.yaml` so the Material Icons font is bundled with the app."
+        },
+        {
+          "name": "cupertino_icons",
+          "summary": "Sole third-party runtime dependency (`^1.0.8`) declared in `_probe_flutter/pubspec.yaml` for iOS-style icons."
+        },
+        {
+          "name": "flutter_lints",
+          "summary": "Dev dependency (`^6.0.0`) pulled in via `analysis_options.yaml`'s include of `package:flutter_lints/flutter.yaml` with no rule overrides."
+        },
+        {
+          "name": "flutter_test",
+          "summary": "SDK dev dependency declared in `pubspec.yaml`; no test files appear in the supplied evidence."
+        },
+        {
+          "name": "package:flutter_lints/flutter.yaml",
+          "summary": "The included lint ruleset in `_probe_flutter/analysis_options.yaml`; run `flutter analyze` to surface its findings."
+        },
+        {
+          "name": "includeBuild",
+          "summary": "Gradle directive in `settings.gradle.kts` that composes the Flutter tool's `packages/flutter_tools/gradle` build from the SDK path."
+        },
+        {
+          "name": "evaluationDependsOn",
+          "summary": "Gradle configuration in `_probe_flutter/android/build.gradle.kts` making each subproject depend on `:app` evaluation for consistent build directories."
+        }
+      ],
+      "contentHash": "a34039090fe53b3fbc933dc810824ec6538cc096a0928b7969ceed4b0fda7b19",
+      "managedHash": "6f99fb1c60c2a5a45964859f6f61684dca56a5f9e04a9e7c0a9c65aa216d0e93",
+      "generatedAt": "2026-10-03T18:27:05.957Z",
+      "fingerprint": "3cdce2b3bd04fc2b314285fa8f618b8d681edb95a6409bbe581801a9dd0b3ba9"
+    },
+    "modules/backend.md": {
+      "title": "Backend Module",
+      "purpose": "Explain the responsibilities, public surface, internal flow, dependencies, and change guidance for backend/.",
+      "selectors": [
+        "backend/**"
+      ],
+      "sources": [
+        "backend/CRM.md",
+        "backend/START-HERE.md",
+        "backend/REQUIREMENTS.md",
+        "backend/fixtures/seed.json",
+        "backend/crm-service.mjs",
+        "backend/fixtures/generate-history.mjs",
+        "backend/mock-crm.mjs"
+      ],
+      "sourceHashes": {
+        "backend/CRM.md": "0604a520c78d99bcced958588b448dfb8533e76df2c417a2398fdc1b467f8cdf",
+        "backend/START-HERE.md": "a3353ee1216ed14980a9d517639fac5236c49c61644e9931ac515f73ea030d87",
+        "backend/REQUIREMENTS.md": "3c3c044faf1b6c9296872613b8bc2a746ce48d2e55b8c1dec4309b8e8af95074",
+        "backend/fixtures/seed.json": "02c6c470840645560cd886d7281b936b1e75a5d35830d49053d9e0d1ec144d84",
+        "backend/crm-service.mjs": "ee11089be599574f9d0d1ee80e079e6ad3494a6039cee2957a337c2a49b8e297",
+        "backend/fixtures/generate-history.mjs": "c5ed4aade305b03d5916075164ca21a3e01f1ac38e93e4795d675b846ab3d26e",
+        "backend/mock-crm.mjs": "eafb5f1de8a38c781811350869e76f699fc53f8db5a6463f083cc5bf1edce8e3"
+      },
+      "summary": "The backend/ module is a from-scratch wealth-management portfolio dashboard exercise that lives in backend/solution/ and depends on a supplied mock CRM and fixtures. This page maps the supplied files (START-HERE, REQUIREMENTS, CRM, mock-crm.mjs, crm-service.mjs, seed.json, generate-history.mjs), the ten tasks, and the CRM mapping/caching/ledger flows.",
+      "symbols": [
+        "startCrm",
+        "metadata",
+        "modes",
+        "calls",
+        "callsByPortfolio",
+        "/__stats",
+        "/__control",
+        "/crm/portfolios/:id",
+        "behavior",
+        "accounts",
+        "client_record",
+        "relationships",
+        "acct_ref",
+        "acct_nickname",
+        "curr_val",
+        "chg_1d",
+        "since_inception_pct",
+        "meta.retrieved_at",
+        "CADtoUSD",
+        "ledgerCases",
+        "oversell",
+        "outOfOrder",
+        "clients",
+        "portfolios",
+        "holdings",
+        "holdingDetails",
+        "transactions",
+        "GET /portfolios/:id",
+        "GET /portfolios/:id/holdings",
+        "GET /portfolios/:id/performance-history",
+        "GET /portfolios/:id/allocation",
+        "GET /clients/:clientId/portfolios",
+        "GET /clients/:clientId/household-summary",
+        "GET /holdings/:ticker/detail",
+        "currentQuantity",
+        "averageCostBasisPerShare",
+        "stale",
+        "cachedAt"
+      ],
+      "symbolSummaries": [
+        {
+          "name": "startCrm",
+          "summary": "Factory exported by crm-service.mjs that returns the mock CRM HTTP handler; it tracks mode, call count, and per-portfolio call counts and simulates the auto failure pattern."
+        },
+        {
+          "name": "metadata",
+          "summary": "CRM fixture values in crm-service.mjs mapping P-9001/2/EMPTY/SINGLE to {amt, change, pct, inception}; explicitly labeled fixture data, not candidate valuation code."
+        },
+        {
+          "name": "modes",
+          "summary": "The allowed CRM modes array ['auto','ok','error','timeout','missing','nested'] validated by POST /__control and per-request ?mode=."
+        },
+        {
+          "name": "behavior",
+          "summary": "Computed per CRM call: 'auto' selects timeout on multiples of 10, error on multiples of 5, else ok; explicit modes pass through."
+        },
+        {
+          "name": "accounts",
+          "summary": "The CRM returns every account for the client; callers must select the requested one by acct_ref rather than taking the first entry."
+        },
+        {
+          "name": "CADtoUSD",
+          "summary": "Seed rate (0.73) used for the Task 7 display-currency conversion between CAD and USD."
+        },
+        {
+          "name": "ledgerCases",
+          "summary": "Seed section providing oversell and outOfOrder transaction fixtures for Task 10 ledger replay edge cases."
+        },
+        {
+          "name": "currentQuantity",
+          "summary": "Task 10 replay output: net shares after applying all BUY/SELL transactions chronologically."
+        },
+        {
+          "name": "averageCostBasisPerShare",
+          "summary": "Task 10 replay output: weighted average cost of currently held shares under standard average-cost accounting; SELLs do not change it."
+        },
+        {
+          "name": "stale",
+          "summary": "Task 9 addition to GET /portfolios/:id: true when a cached value is served past TTL because the CRM failed."
+        },
+        {
+          "name": "cachedAt",
+          "summary": "Task 9 addition recording the ISO datetime when the cached portfolio value was originally fetched from the CRM."
+        }
+      ],
+      "contentHash": "31fa39670844c3838a8572fb64ae50458a8744d046297c6a484f8c284fd6a06b",
+      "managedHash": "d7e6bf7b5add22833c00d88f441ba57586702b4ed55e92ac5f87817b7da16f2e",
+      "generatedAt": "2026-10-03T18:27:05.957Z",
+      "fingerprint": "5c98fd3969e0776af86256b9710ef093c3891f46f0c57c7efc7a369dc17d6146"
+    },
+    "modules/support.md": {
+      "title": "Support Module",
+      "purpose": "Explain the responsibilities, public surface, internal flow, dependencies, and change guidance for support/.",
+      "selectors": [
+        "support/**"
+      ],
+      "sources": [
+        "support/MAINTENANCE.md",
+        "support/mocks.test.mjs",
+        "support/PORTFOLIO-API.md",
+        "support/SETUP.md",
+        "support/http.mjs",
+        "support/portfolio-api.mjs",
+        "support/portfolio-data.mjs"
+      ],
+      "sourceHashes": {
+        "support/MAINTENANCE.md": "f723ea5fe8262b391395a594d847d831a8db1f0ae1fe4a407a1360d482d187c6",
+        "support/mocks.test.mjs": "d9ebdfb8a3ad590bb25241357cbee1a08610d4281935b83ce5489b7eb6a59b9d",
+        "support/PORTFOLIO-API.md": "fa2224494ffdef38fcd023dcd3af7fecf920b589013631ce45c31b4bd6e58ae9",
+        "support/SETUP.md": "613d93ba3998ef62dbf2c0625d6def17e8d77b9f3b8cc1357ba1952eaf5fb5c0",
+        "support/http.mjs": "309941fd5cdea39b0967c6029a89394841c2f206022b62c904cf78c042a4e029",
+        "support/portfolio-api.mjs": "9300904c8598dffc43a07baf698beb1837b3852c85e2598dcce301118936903c",
+        "support/portfolio-data.mjs": "ba01e323c84889817b04c97d8444f14626ca4ac49cc0b570d186f2cd8bf8d28c"
+      },
+      "summary": "The support/ module holds the fictional mock services and datasets shared by the frontend and mobile tracks: a portfolio HTTP API, a legacy CRM fixture server, shared HTTP helpers, setup/maintenance docs, and a node:test suite that validates dataset consistency, edge scenarios, HTTP errors, and CRM fault controls.",
+      "symbols": [
+        "startPortfolioApi",
+        "scenarios",
+        "portfolioData",
+        "holdingDetail",
+        "history",
+        "json",
+        "serve",
+        "options",
+        "badRequest",
+        "readJson",
+        "delay",
+        "startCrm",
+        "templates",
+        "round"
+      ],
+      "symbolSummaries": [
+        {
+          "name": "startPortfolioApi",
+          "summary": "Creates the shared portfolio HTTP API server, handling GET routes, scenario/delay validation, simulated failures, and 404/405 responses."
+        },
+        {
+          "name": "scenarios",
+          "summary": "Exported array of accepted ?scenario= names in support/portfolio-data.mjs; portfolio-api.mjs rejects any value not in this list."
+        },
+        {
+          "name": "portfolioData",
+          "summary": "Builds a portfolio response (summary, holdings, allocation, history) for an ID and scenario, applying dataset variants and derived totals."
+        },
+        {
+          "name": "holdingDetail",
+          "summary": "Returns per-ticker detail such as purchase date, dividend yield, 52-week range, and price history, or null when the ticker is absent."
+        },
+        {
+          "name": "history",
+          "summary": "Generates date/marketValue points ending on the current UTC date, with point counts and gaps driven by the scenario."
+        },
+        {
+          "name": "json",
+          "summary": "Writes a JSON response with the correct content type, guarding against already-ended or destroyed responses."
+        },
+        {
+          "name": "serve",
+          "summary": "Creates the Node HTTP server: sets CORS/no-store headers, answers OPTIONS and /health, wraps the handler, and normalizes errors to { error, message }."
+        },
+        {
+          "name": "options",
+          "summary": "Parses --port and --host CLI flags, rejects unknown options, and validates that the port is an integer from 1 to 65535."
+        },
+        {
+          "name": "badRequest",
+          "summary": "Creates an Error tagged with status 400 so serve maps it to a bad_request JSON response."
+        },
+        {
+          "name": "readJson",
+          "summary": "Reads and parses a request body, capping it at 4096 bytes and throwing a 400 for oversized or malformed JSON."
+        },
+        {
+          "name": "delay",
+          "summary": "Awaits the given milliseconds but resolves early if the response closes, making simulated loading delays abort-safe."
+        },
+        {
+          "name": "startCrm",
+          "summary": "Starts the legacy CRM fixture server from backend/crm-service.mjs; support/mocks.test.mjs uses it to verify fixtures, controls, and timeouts."
+        },
+        {
+          "name": "templates",
+          "summary": "Internal base rows (AAPL, BND, CASH, ALT, TSLA) that portfolioData copies and mutates to construct per-scenario holdings."
+        },
+        {
+          "name": "round",
+          "summary": "Small helper that rounds monetary and percentage values to two decimals for consistent fixture output."
+        }
+      ],
+      "contentHash": "e94a14147237cce51143bf8a43b4720e44b442c9c080847a54b15d53f8a2c59c",
+      "managedHash": "b5a7bf40f1e863885d26ff01d6a2c524012ea678569bb856d7b86701f06db625",
+      "generatedAt": "2026-10-03T18:27:05.957Z",
+      "fingerprint": "b0e7e07788d2feaa2ef066e12be424bd626a174693104890dd6bc97294994d5e"
+    },
+    "modules/frontend.md": {
+      "title": "Frontend Module",
+      "purpose": "Explain the responsibilities, public surface, internal flow, dependencies, and change guidance for frontend/.",
+      "selectors": [
+        "frontend/**"
+      ],
+      "sources": [
+        "frontend/REQUIREMENTS.md",
+        "frontend/START-HERE.md",
+        "frontend/mock-server.mjs"
+      ],
+      "sourceHashes": {
+        "frontend/REQUIREMENTS.md": "a9fac318ae364a36351b393f2ea08c893836b8797c1dba9a27bc1e6961357356",
+        "frontend/START-HERE.md": "3a7098cb112d071a55e56ac75a79e1ca07bd4cf44fe19fcb414bf16d0a4586ed",
+        "frontend/mock-server.mjs": "f80a485f898245e790a6058136593cbec3c9d53340c70dca0a33cd8062fb484a"
+      },
+      "summary": "The frontend/ module is a challenge scaffold: it defines the wealth-management dashboard specification (REQUIREMENTS.md), on-ramp instructions (START-HERE.md), and a thin mock-server.mjs that delegates to the shared support module. Implementation lives in frontend/solution/, which is not present in the evidence.",
+      "symbols": [
+        "startPortfolioApi",
+        "options",
+        "frontend/mock-server.mjs",
+        "frontend/REQUIREMENTS.md",
+        "frontend/START-HERE.md",
+        "support/portfolio-api.mjs",
+        "support/http.mjs",
+        "support/PORTFOLIO-API.md",
+        "support/SETUP.md",
+        "frontend/solution/"
+      ],
+      "symbolSummaries": [
+        {
+          "name": "startPortfolioApi",
+          "summary": "Server factory imported from ../support/portfolio-api.mjs; called by the frontend mock launcher to start the portfolio API on the configured port."
+        },
+        {
+          "name": "options",
+          "summary": "Helper from ../support/http.mjs that produces HTTP/port configuration; called as options(4000) to bind the frontend mock API to port 4000."
+        },
+        {
+          "name": "frontend/mock-server.mjs",
+          "summary": "Three-line entry point that starts the shared portfolio API on port 4000 labelled 'Frontend mock API'; run with node frontend/mock-server.mjs."
+        },
+        {
+          "name": "frontend/REQUIREMENTS.md",
+          "summary": "Fixed spec of 10 dashboard tasks (shell, summary card, holdings table, charts, range selector, currency toggle, account selector, holding detail, top movers), each with edge cases and a Definition of Done."
+        },
+        {
+          "name": "frontend/START-HERE.md",
+          "summary": "Setup instructions for the exercise: install Node, run the mock server, verify /health and /portfolios/P-9001, and build the app in frontend/solution/."
+        },
+        {
+          "name": "support/portfolio-api.mjs",
+          "summary": "Owning module of the mock portfolio server that frontend/mock-server.mjs starts; source of the routes and scenarios the frontend consumes."
+        },
+        {
+          "name": "support/http.mjs",
+          "summary": "Provides the options() helper used to derive the frontend mock server's port and HTTP configuration."
+        },
+        {
+          "name": "support/PORTFOLIO-API.md",
+          "summary": "Referenced by frontend/START-HERE.md as the guide for mock routes, field units, and test datasets used by the dashboard."
+        },
+        {
+          "name": "frontend/solution/",
+          "summary": "Designated build location for the dashboard app (or an app/ folder inside it); no framework is prescribed, and it is absent from the supplied evidence."
+        }
+      ],
+      "contentHash": "75e0d54ca78d6661d945ca73babcdcdf916570fc0dc6e3cb8f5753f19e67cd26",
+      "managedHash": "c5b23d694acee617f77a46a7f1c9522378c9a897f5a07fd74f615ba77bf76931",
+      "generatedAt": "2026-10-03T18:27:05.957Z",
+      "fingerprint": "df640172102d5faaf529e543bd46b8f4af906e401d75fcb9726ad574dc7a4c70"
+    }
+  }
+}

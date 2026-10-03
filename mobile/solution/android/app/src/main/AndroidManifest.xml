@@ -1,13 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.INTERNET" />
-    <!-- Task 5: biometric unlock. Task 6: local notifications on Android 13+. -->
-    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <application
         android:label="Electric Mind Portfolio"
         android:name="${applicationName}"
-        android:allowBackup="false"
-        android:icon="@android:drawable/sym_def_app_icon">
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
             android:exported="true"
